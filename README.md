@@ -168,6 +168,8 @@ Not all configuration options from `authoauth2:OAuth2` are supported in `OpenIDC
               //'urlAuthorizeOptions' => [
               //    'scope' => 'openid'
               //]
+
+              'ignoreEndSessionEndpoint' => false,
           ),
 ```
 
