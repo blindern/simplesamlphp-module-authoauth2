@@ -1,9 +1,55 @@
 # simplesamlphp-module-authoauth2  Changelog
 
-## Unreleased
+## v4.1.0-beta.2
+_Release: 2024-02-13
+* Update consent template to twig
 
-_Release: 2020-?
+## v4.1.0-beta.1
+_Release: 2024-01-29
+* Test against php 8.3
+* Add support for PKCE
+* Add support for running authproc filters
+* Require league/oauth2-client ^2.7
+
+## v4.0.0
+_Release: 2023-08-04
+* No changes from v4.0.0-beta.2
+
+## v4.0.0-beta.2
+_Release: 2023-08-04
+* LinkedIn OIDC Template
+* Deprecate old LinkedIn auth method
+* Upgrade `kevinrob/guzzle-cache-middleware` to fix Guzzle promise issue
+* Allow more versions of `psr/cache` and `symfony/cache`
+
+## v4.0.0-beta.1
+_Release: 2023-03-01
+* Move `lib` to `src`
+* Move `www` to `public`
+* Use ssp2 final release
+* firebase/php-jwt 6 support
+
+## v4.0.0-alpha.1
+
+_Release: 2022-11-16
+* Make OIDC discovery configrable
+* SSP 2 compatability
+* Improved psalm code quality
+* Better source code typing
+
+## v3.3.0
+
+_Release: 2023-06-12
+* LinkedIn OIDC Template
+* Deprecate old LinkedIn auth method
+* Upgrade `kevinrob/guzzle-cache-middleware` to fix Guzzle promise issue
+
+## v3.2.0
+
+_Release: 2022-10-12
 * Amazon template
+* Apple template
+* Orcid auth source
 * OIDC auth source now supports `scopes` setting
 * Move to phpunit 8
 * Increase min php version
