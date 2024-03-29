@@ -122,7 +122,7 @@ class OpenIDConnect extends OAuth2
     public function logout(array &$state): void
     {
         $providerLabel = $this->getLabel();
-        if ($this->config->getBoolean('ignoreEndSessionEndpoint', false)) {
+        if ($this->config->getOptionalBoolean('ignoreEndSessionEndpoint', false)) {
             Logger::debug("authoauth2: $providerLabel End session endpoint ignored");
             return;
         }
